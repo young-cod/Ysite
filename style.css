@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background-color: rgb(86, 80, 80);
+  margin: 0;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+}
+
+.contents {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contents img {
+  width: 200px;
+  height: 200px;
+}
+
+.contents li {
+  display: flex;
+  justify-content: space-between;
+}
